@@ -42,5 +42,5 @@ Algunas funciones pueden generar errores si se ingresan expresiones inválidas o
 
 Integrantes:
 
-Sol Muscara
-Matias Guazzolini
+-Sol Muscara
+-Matias Guazzolini
