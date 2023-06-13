@@ -21,11 +21,10 @@ function calcularPorRectangulos(func, a, b, n) {
 }
 
 function graficarRectangulos(grafico, t) {
-  const snappiness = 20;
   for (let i = 0; i < grafico.length; i++) {
     let r = grafico[i];
-    let rt = sigmoide((t - i) * snappiness);
-    let rt2 = sigmoide((t - i - 0.5) * snappiness);
+    let rt = sigmoide((t - i));
+    let rt2 = sigmoide((t - i - 0.5));
     const mid = (r.x2 + r.x1) * 0.5;
     const width = (r.x2 - r.x1) * 0.5;
     // Dibujar rectangulo

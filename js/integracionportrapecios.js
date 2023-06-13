@@ -38,12 +38,11 @@ function calcularPorTrapecios(func, a, b, n) {
 }
 
 function graficarTrapecios(grafico, t) {
-  const snappiness = 20;
   colorLinea("#f00");
   for (let i = 0; i < grafico.length; i++) {
     let r = grafico[i];
-    let rt = sigmoide((t - i) * snappiness);
-    let rt2 = sigmoide((t - i - 0.5) * snappiness);
+    let rt = sigmoide((t - i));
+    let rt2 = sigmoide((t - i - 0.5));
     colorRelleno("#f005");
     poligono([
       { x: r[0].x, y: r[0].y * rt },
