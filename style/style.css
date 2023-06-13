@@ -1,0 +1,88 @@
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../fondo1.jpg);
+}
+
+.container{
+	text-align: left;
+	background-color: black;
+	border-radius: 40px;
+	width: 800px;
+	margin-left: 550px;
+	padding-left: 30px;
+	padding-top: 1px;
+}
+
+.inputs {
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+select{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	border-radius: 8px;
+}
+
+option{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	border-radius: 8px;
+}
+
+.calcular{
+	text-align: center;
+}
+
+.botonCalcular{
+	text-align: center;
+	font-size: 30px;
+	border-radius: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+	color: white;
+	font-size: 30px;
+}
+
+input{
+	font-size: 25px;
+	border:2px solid white;
+	border-radius: 8px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+.resultado{
+	background-color: black;
+	border-radius: 20px;
+	width: 300px;
+	position: absolute;
+	margin-left: 850px;
+	padding: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+}
+.info{
+	color: white;
+}
+
+.canvas {
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+.frame {
+	background-color: gray;
+	padding: 5px;
+	margin: 100px;
+	margin-left: 460px;
+	max-width: 1200px;
+}
+ 

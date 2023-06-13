@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora de Métodos de Integración</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="../js/index.js"></script>
+	<script src="../js/grafico.js"></script>
+	<script src="../js/integracionporrectangulos.js"></script>
+	<script src="../js/integracionportrapecios.js"></script>
+	<script src="../js/integracionpormontecarlo.js"></script>
+
+</head>
+<body onload="Start();">
+	<div class="container">
+		<div class="inputs">
+			<h1>Metodos de Integración</h1>
+			<label>Función:</label>
+			<input id="funcion" value="sin(x+2)" type="text" onchange="OnFunctionChange(event)">
+			<br><br>
+			<label for="metodo">Método:</label>
+			<select name="metodo" id="metodo" onchange="OnMethodChange(event)">
+				<option value="0">Rectangulos</option>
+				<option value="1">Trapecios</option>
+				<option value="3">Monte-Carlo</option>
+			</select>
+			<br><br>
+			<label>a: </label><input id="a-input" type="number" value="-2" onchange="OnAChange(event)">
+			<label>b: </label><input id="b-input" type="number" value="2" onchange="OnBChange(event)">
+			<br><br>
+			<label>N: </label><input id="n-input" type="number" value="20" onchange="OnNChange(event)">
+			<br><br>
+		</div>
+
+		<div class="calcular">
+			<button class="botonCalcular" onclick="BotonCalcular()">Calcular</button>
+		</div>
+		<br><br>
+	</div>
+
+	<br><br>
+	<div class="resultado">
+		<p class="info" id="Resultado">Resultado: </p>
+	</div>
+	<br><br>
+	<div class="frame" style="float:left">
+		<canvas class="canvas" id="mycanvas" width="1024" height="512"></canvas>
+	</div>
+
+</body>
+</html>
+ 
