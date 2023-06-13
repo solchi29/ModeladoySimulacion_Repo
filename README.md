@@ -34,6 +34,9 @@ Selecciona el método de integración deseado en el menú desplegable.
 Ajusta los límites a y b y el número de subintervalos (n).
 Hacer clic en el botón "Calcular" para obtener el resultado.
 
+Tambien se puede abrir con el siguiente link:
+(https://modelado-y-simulacion-repo.vercel.app/)
+
 
 Limitaciones
 La calculadora de integración numérica puede tener precisiones limitadas dependiendo de la complejidad de la función y el método de integración seleccionado.
